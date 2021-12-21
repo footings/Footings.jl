@@ -1,0 +1,18 @@
+name = "Footings"
+uuid = "7d0ddb6e-89ed-4c4a-9cae-a4cf796e0e86"
+authors = ["Dustin Tindall <dustin.tindall@gmail.com> and contributors"]
+version = "0.1.0"
+
+[deps]
+MLStyle = "d8e11817-5142-5d16-987a-aa16d5891078"
+MacroTools = "1914dd2f-81c6-5fcd-8719-6d5c9610ff09"
+StaticModules = "0e73dd9d-f2ce-43e7-894a-685dc1ae04f6"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
